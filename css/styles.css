@@ -1,5 +1,5 @@
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 }
 
 @media (min-width: 576px) {
@@ -47,9 +47,9 @@ main > .intro {
 	font-weight: 600;
 }
 
-main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
+.tagline {
+	font-size: 2.0rem;
+	margin: 2.5rem 0;
 	font-weight: 100;
 }
 
@@ -69,11 +69,30 @@ main > .tagline {
 }
 
 #avo {
-  border-radius: 50%;
-  height: 40vh;
-  width: 20vw;
+  border-radius: 25px;
+  height: auto;
+	width: 15vw;
+	float: left;
+	position: relative;
+	left: 15vw;
 }
 
 #typedName {
-  font-size: large;
+	font-size: 60px;
+	font-family: 'Reem Kufi', sans-serif;
+
+}
+
+.skills {
+	font-family: 'Reem Kufi', sans-serif;
+}
+
+.projects-btn {
+	font-size: x-large;
+}
+
+.projects {
+	position: absolute;
+	top: 5;
+	border-radius: 15px;
 }

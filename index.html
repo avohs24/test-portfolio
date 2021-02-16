@@ -15,42 +15,42 @@
 	<link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/indigo-white.css">
-	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
 </head>
 <body>
-	<main onclick="setColor(this)">
+	<main onclick="setColor(this, event)">
 		        <script>
           window.onload = function() {
             var typedName = new Typed('#typedName', {
-            strings: ['👋 Hey, my name is <strong>Alexandra Vohs!</strong>', '👋 Hey, my name is <strong>Alex Vohs<strong>!'],
+            strings: ["👋 Hey, I'm <strong>Alexandra Vohs!</strong>", "👋 Hey, I'm <strong>Alex Vohs<strong>!"],
             smartBackspace: true,
-            typeSpeed: 25,
+						typeSpeed: 55,
+						backDelay: 1700,
+						showCursor: false
           });
           }
 				</script>
-				<div class="cell small-1"><img id='avo' src='images/alex.svg'></div>
-				<div class="cell small-8">
-					<span class="cell small-8" id="typedName"></span>
+						<div class="projects">
+							<a class="clear button secondary projects-btn medium" id="button-txt-1" href="projects.html" data-toggle="#projects-modal"><u>Projects</u></a>
+							<a class="clear button secondary projects-btn medium" id="button-txt-2" href="#"><u>Resume</u></a>
+						</div>
+				<div class="row">
+					<div class="columns small-6"><img id='avo' src='images/alex.JPG'></div>
+					<div class="columns small-6">
+					<div><span  id="typedName"></span></div>
+					<p class="tagline" id="tagline"> 📍&nbsp;Washington, DC&nbsp;|&nbsp;💻&nbsp;Full-Stack Dev&nbsp;<br>&nbsp;✈️&nbsp;Avid Traveler&nbsp;|&nbsp;📚&nbsp;Life-long Learner </p>
+
+					</div>
 				</div>
-		<p class="tagline" id="tagline"> 📍&nbsp;Washington, DC&nbsp;|&nbsp;💻&nbsp;Full-Stack Dev&nbsp;|&nbsp;✈️&nbsp;Avid Traveler&nbsp;|&nbsp;📚&nbsp;Life-long Learner </p>
-		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-		<div class="icons-social">
-			<a target="_blank" href="https://github.com/avohs24"><i class="fab fa-github"></i></a>
-			<a target="_blank" href="https://dev.to/flexdinesh"><i class="fab fa-dev"></i></a>
-			<a target="_blank" href="https://stackoverflow.com/story/flexdinesh"><i class="fab fa-stack-overflow"></i></a>
-			<a target="_blank" href="https://www.linkedin.com/in/alex-vohs/"><i class="fab fa-linkedin"></i></a>
-			<a target="_blank" href="https://medium.com/@flexdinesh"><i class="fab fa-medium"></i></a>
-			<a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a>
-			<a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a>
-			<a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
-    </div>
+		<div class="icons-social row">
+				<a target="_blank" href="https://github.com/avohs24"><i class="fab fa-github"></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/alex-vohs/"><i class="fab fa-linkedin"></i></a>
+				<a target="_blank" href="mailto:avohs24@gmail.com"><i class="fas fa-envelope-open-text fab"></i></a>
+			</div>
 	</main>
+
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
 </html>
