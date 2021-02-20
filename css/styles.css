@@ -73,28 +73,15 @@ main > .intro {
   border-radius: 250px;
   height: auto;
 	width: 15vw;
-	display: flex;
+}
+.resume-link {
+	color: #000080;
 }
 
 #typedName {
 	font-size: 60px;
 	font-family: 'Reem Kufi', sans-serif;
 	color: #000000;
-}
-
-.skills {
-	font-family: 'Reem Kufi', sans-serif;
-}
-
-.projects-btn {
-	font-size: x-large;
-	color: #000000;
-}
-
-.projects {
-	position: absolute;
-	top: 5;
-	border-radius: 15px;
 }
 
 main {
